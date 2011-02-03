@@ -1893,6 +1893,13 @@ a:hover {
     background: -moz-linear-gradient(top,  #ffffff,  #EEEFEE); /* for firefox 3.6+ */    
 }
 
+.button-200 {
+    width: 200px;
+    text-decoration: none;
+    color: #888;
+    margin-top: 12px;
+}
+
 .button-250 {
     width: 250px;
     text-decoration: none;
@@ -3840,6 +3847,31 @@ ol.statuses .hentry a.fav {
     background-image: url('/images/thumb-term.png');
 }
 
+/* XRefresh Pro features thumbnails */
+.tf-highlight-icon .thumb-xplatform {
+    background-image: url('/images/thumb-xplatform.png');
+}
+
+.tf-highlight-icon .thumb-any_editor {
+    background-image: url('/images/thumb-any_editor.png');
+}
+
+.tf-highlight-icon .thumb-websockets {
+    background-image: url('/images/thumb-websockets.png');
+}
+
+.tf-highlight-icon .thumb-free_updates {
+    background-image: url('/images/thumb-free_updates.png');
+}
+
+.tf-highlight-icon .thumb-license {
+    background-image: url('/images/thumb-license.png');
+}
+
+.tf-highlight-icon .thumb-build {
+    background-image: url('/images/thumb-build.png');
+}
+
 .tf-highlight-content {
 }
 
@@ -4212,4 +4244,8 @@ ol.statuses .hentry a.fav {
     color: #999;
     padding-left: 8px;
     font-size: 11px;
+}
+
+.xrefresh-original {
+  text-align: center;
 }
